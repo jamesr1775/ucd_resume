@@ -341,6 +341,9 @@ button[type="submit"]{
     background-color: #e84610;
 }
 
+
+/* -----------------------Media Queries------------------- */
+
 @media(min-width:992px){
     .center-form{
     padding-top: 30px;
@@ -348,4 +351,17 @@ button[type="submit"]{
     margin: 0 auto;
     max-width: 50%;
 }
+}
+
+@media(min-width:1440px){
+    .logo{
+        background: url("../images/rosie.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 360px;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+    }
 }
